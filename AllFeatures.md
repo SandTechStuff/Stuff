@@ -362,6 +362,26 @@ Allows you to hide the search bar in File Explorer windows completely.
 
 > ![image](https://user-images.githubusercontent.com/6503598/150660389-aa8ce908-49d7-452b-969c-7c8598b03a45.png)
 
+## Title bar:
+Only applies to the Windows 7 command bar and Windows 10 ribbon.
+
+- #### Show icon and title (default)
+    Show both the icon and title of the folder you are browsing.
+
+    > ![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/showIconAndTitle.png)
+- #### Hide title, show icon
+    Hide the title of the folder you are browsing and only show the icon.
+
+    > ![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/hideTitle.png)
+- #### Hide icon, show title
+    Hide the icon of the folder you are browsing and only show the title.
+
+    > ![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/hideIcon.png)
+- #### Hide icon and title
+    Hide both the icon and title of the folder you are browsing.
+
+    > ![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/hideIconAndTitle.png)
+
 ## Apply Mica effect to the navigation bar of Windows 7 Explorer windows:
 
 This allows you to apply the Windows 11 Mica material to the navigation bar of Explorer windows with the Windows 7 command bar. This option is only available on Windows 11.
@@ -475,7 +495,7 @@ Allows four tiles to be displayed in a row instead of three.
     > ![image](https://user-images.githubusercontent.com/6503598/150660619-450d0120-e9b8-400f-a3b0-6af122b68b56.png)
 - #### Windows NT
     Use the classic, simple icon-based interface hosted by `csrss`.
-    
+
     **⚠️ Warning:** This option does not work since Windows 11 24h2.
 
     > ![image](https://user-images.githubusercontent.com/6503598/150660671-b095c7ee-b2cc-4ca9-888f-6ec03577b9f0.png)
