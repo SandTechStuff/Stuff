@@ -21,18 +21,18 @@ This changes the taskbar implementation.
 - #### Windows 10 (Default before 24H2)
     Enables the familiar Windows 10 taskbar. It supports all the familiar features, like enabling button labels (never combine), separate network/volume/battery indicators, docking to the top/bottom/right/left side of the screen, plus customizable options via ExplorerPatcher.
 
-    > ![image](https://user-images.githubusercontent.com/6503598/150659166-9b980623-66dc-4716-8c7a-72521cc23c98.png)
+    > ![image](https://user-images.githubusercontent.com/6503598/150659166-9b980623-66dc-4716-8c7a-72521cc23c98.png) \
     > Windows 10 taskbar
 
 - #### Windows 11 (Default after 24H2)
     Enables the Windows 11 taskbar. The network/volume/battery indicators are grouped in a single button that opens the "Control Center".
 
-    > ![image](https://user-images.githubusercontent.com/6503598/150659189-c3381a2b-2836-4296-933f-002e67277aa2.png)
+    > ![image](https://user-images.githubusercontent.com/6503598/150659189-c3381a2b-2836-4296-933f-002e67277aa2.png) \
     > Windows 11 taskbar
 
     ExplorerPatcher enhances it by providing an enhanced context menu that displays proper options, as the legacy taskbar did, including Task Manager:
 
-    > ![image](https://user-images.githubusercontent.com/6503598/150659209-de8d3943-785a-4f5b-95d8-792347658ce6.png)
+    > ![image](https://user-images.githubusercontent.com/6503598/150659209-de8d3943-785a-4f5b-95d8-792347658ce6.png) \
 
     There are also a number of fixes ExplorerPatcher applies to this new taskbar:
     * As shipped by Microsoft, a taskbar displayed on a secondary monitor does not react when the mouse is over it and auto hide is on; fixed this (#589)
@@ -40,9 +40,9 @@ This changes the taskbar implementation.
     * As shipped by Microsoft, a taskbar displayed on a secondary monitor might display a wrong contextual menu when auto hide is on; fixed this
 
 - #### Windows 10 (ExplorerPatcher)
-    Enables the new, reverse engineered version of the Windows 10 taskbar. It's main purpose is to combat the Windows 10 taskbar nukes the 24H2 update brings, and it fully functions on 24H2. It also comes with a few perks not available with the standard Windows 10 taskbar. Read more about it here: [ExplorerPatcher's Taskbar Implementation](https://github.com/valinet/ExplorerPatcher/wiki/ExplorerPatcher's-taskbar-implementation).
+    Enables the new, reverse engineered version of the Windows 10 taskbar. Its main purpose is to combat the Windows 10 taskbar nukes the 24H2 update brings, and it fully functions on 24H2. It also comes with a few perks not available with the standard Windows 10 taskbar. Read more about it here: [ExplorerPatcher's Taskbar Implementation](https://github.com/valinet/ExplorerPatcher/wiki/ExplorerPatcher's-taskbar-implementation).
 
-    > ![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/ep_taskbar.png)
+    > ![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/ep_taskbar.png) \
     > ExplorerPatcher taskbar with it's perks, including Windows 11 icons and centering. 
 
 ## Primary/secondary taskbar location on screen:
@@ -60,7 +60,7 @@ A much more convenient way to move the taskbar is to drag it to your desired loc
 
 You can also move it to other monitors - this allows you to move the main taskbar (the one that contains the system tray) to a secondary monitor. This was actually a bug in Windows 10 that was fixed in Windows 11, but ExplorerPatcher restored this functionality due to popular demand.
 
-> ![image](https://user-images.githubusercontent.com/6503598/150659429-ef73a3ae-0845-4ec3-87b7-0c2a061dc429.png)
+> ![image](https://user-images.githubusercontent.com/6503598/150659429-ef73a3ae-0845-4ec3-87b7-0c2a061dc429.png) \
 *Don't see additional taskbars on a multi-monitor configuration? Maybe you need to enable that: right click the main taskbar, choose "Taskbar settings", expand "Taskbar behaviors" and check "Show my taskbar on all displays".*
 
 ## Search:
@@ -70,19 +70,19 @@ You can also move it to other monitors - this allows you to move the main taskba
 - #### Show search icon
     Displays an icon that opens Windows Search (`Win`+`Q`) when clicked.
 
-    > ![image](https://user-images.githubusercontent.com/6503598/150659541-6088837a-5fb3-481f-bdda-c57d6ff62ee5.png)
+    > ![image](https://user-images.githubusercontent.com/6503598/150659541-6088837a-5fb3-481f-bdda-c57d6ff62ee5.png) \
     > *Appearance of the Search button on the Windows 10 taskbar*
 - #### Show search box
     Displays a box that when clicked, opens search. It is currently buggy on Windows 11 and disappears temporarily when search is opened.
 
-    > ![https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/searchbox.png](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/searchbox.png)
+    > ![https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/searchbox.png](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/searchbox.png) \
     > *Appearance of the Search box on the Windows 10 taskbar*
 
 ## Show Task View button:
 
 Displays an icon that opens Task View (`Win`+`Tab`) when clicked.
 
-> ![image](https://user-images.githubusercontent.com/6503598/150659564-ebe71257-35b5-468d-8f10-00371c7f08e0.png)
+> ![image](https://user-images.githubusercontent.com/6503598/150659564-ebe71257-35b5-468d-8f10-00371c7f08e0.png) \
 > *Appearance of the Task View button on the Windows 10 taskbar*
 
 ## Automatically hide the taskbar:
@@ -97,10 +97,10 @@ Allows easy customization of the icon that is displayed when using the Windows 1
     > ![image](https://user-images.githubusercontent.com/6503598/150659653-a4433d82-6695-479f-bbe6-0cb4e2ab49bb.png)
 
 - #### Windows 11
-    > ![image](https://user-images.githubusercontent.com/6503598/150659661-6b697b9d-713e-457c-9fe8-3ee0c028f2cc.png)
+    > ![image](https://user-images.githubusercontent.com/6503598/150659661-6b697b9d-713e-457c-9fe8-3ee0c028f2cc.png) \
     > *With standard Windows 10 taskbar*
 
-    >![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/win11Icons.png)
+    >![image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/win11Icons.png) \
     > *With Windows 10 (ExplorerPatcher) taskbar*
 
 ## Primary/secondary taskbar alignment:
@@ -160,14 +160,12 @@ This allows you to choose the behavior of the Windows taskbar in regards to how 
 
 ## Skin taskbar and tray pop-up menus:
 
-This allows you to enable/disable the custom skinning of pop-up menus displayed by the taskbar: its context menu, and also the context menus for the network, volume, battery, Bluetooth and "Safe to Remove Hardware" icons.
+This allows you to enable/disable the immersive styling of pop-up menus displayed by the taskbar: its context menu, and also the context menus for the network, volume, battery, Bluetooth, and "Safe to Remove Hardware" icons.
 
-> ![image](https://user-images.githubusercontent.com/6503598/150659850-aa3b5f97-21fe-46b2-b333-43dd3467411f.png)
->
+> ![image](https://user-images.githubusercontent.com/6503598/150659850-aa3b5f97-21fe-46b2-b333-43dd3467411f.png) \
 > *Context menu with skin*
 
-> ![image](https://user-images.githubusercontent.com/6503598/150659856-1675b4ae-4636-4e9a-8882-142fde7d009e.png)
->
+> ![image](https://user-images.githubusercontent.com/6503598/150659856-1675b4ae-4636-4e9a-8882-142fde7d009e.png) \
 > *Context menu without skin*
 
 ## Center tray icon pop-up menus:
@@ -180,8 +178,7 @@ This makes the context menus for the network, volume, battery, Bluetooth and "Sa
 
 ## Show touch keyboard button:
 
-> ![image](https://user-images.githubusercontent.com/6503598/150659929-e00d5ec4-ef40-4be4-9ea9-e99c0573c959.png)
->
+> ![image](https://user-images.githubusercontent.com/6503598/150659929-e00d5ec4-ef40-4be4-9ea9-e99c0573c959.png) \
 > Touch keyboard button on the Windows 10 taskbar
 
 ## Show seconds in the clock:
@@ -204,8 +201,7 @@ The control center icon opens the following flyout (`Win`+`A`):
 
 This can be used to hide the "Show Desktop" icon located at the far right of the taskbar.
 
-> ![image](https://user-images.githubusercontent.com/6503598/150659604-ba2f5ace-03ab-469c-885d-78eed39bd298.png)
->
+> ![image](https://user-images.githubusercontent.com/6503598/150659604-ba2f5ace-03ab-469c-885d-78eed39bd298.png) \
 > Appearance of the Show Desktop button on the Windows 10 taskbar
 
 ## Hidden icons popup style:
@@ -217,14 +213,12 @@ This allows changing the style of the taskbar tray overflow.
 
 - #### Windows 10
 
-    > ![Image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/10Overflow.png)
-    >
+    > ![Image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/10Overflow.png) \
     > Windows 10 style for the tray overflow
 
 - #### Windows 11
     
-    > ![Image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/11Overflow.png)
-    >
+    > ![Image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/11Overflow.png) \
     > Windows 11 21H2-early 22H2 style for the tray overflow
 
 ## Choosing "Open Network & Internet settings" when right clicking the network icon should open:
@@ -358,7 +352,7 @@ This can disable the new search bar that shows results in a pop-up window as you
 
 ## Shrink address bar height:
 
-This can be used to shrink the address bar to it's height in older Windows 10 builds and prior versions.
+This can be used to shrink the address bar to its height in older Windows 10 builds and prior versions.
 
 > ![Image](https://raw.githubusercontent.com/SandTechStuff/Stuff/refs/heads/main/ExplorerPatcher_Wiki/shrinkAddress.png)
 
@@ -481,9 +475,12 @@ Allows four tiles to be displayed in a row instead of three.
     > ![image](https://user-images.githubusercontent.com/6503598/150660619-450d0120-e9b8-400f-a3b0-6af122b68b56.png)
 - #### Windows NT
     Use the classic, simple icon-based interface hosted by `csrss`.
+    
+    **⚠️ Warning:** This option does not work since Windows 11 24h2.
+
     > ![image](https://user-images.githubusercontent.com/6503598/150660671-b095c7ee-b2cc-4ca9-888f-6ec03577b9f0.png)
 - #### Simple Window Switcher
-    Valinet's take on implementing this kind of functionality.
+    EP's custom and clean room implementation of the window switcher, with various customization options.
     > ![image](https://user-images.githubusercontent.com/6503598/150661107-52a2aa31-4c8d-45fd-abca-ca5b9ef0614b.png)
 
     Options for the Simple Window Switcher are described [here](https://github.com/valinet/ExplorerPatcher/wiki/Simple-Window-Switcher).
