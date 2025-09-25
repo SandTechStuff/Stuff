@@ -1,6 +1,6 @@
 This document describes all the options currently provided by ExplorerPatcher.
 
-Valid for version `22621.4317.67.1`.
+Valid for version `26100.4946.69.3`.
 
 Although I strive to keep this up to date, some things might change slightly in the future. If you notice any inconsistencies, feel free to mention them for fixing in the [Discussions](https://github.com/valinet/ExplorerPatcher/discussions) section.
 
