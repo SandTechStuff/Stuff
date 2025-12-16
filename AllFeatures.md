@@ -316,6 +316,8 @@ This allows you to use the This PC drive grouping from Windows 7. Hard disks and
 
 ## Control Interface:
 
+When control interface options other than Windows 11 are used, XAML folder views in File Explorer will be reverted.
+
 - #### Windows 11 Command Bar (default)
     Use the normal command bar present in the Windows 11 file explorer.
 
